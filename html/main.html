@@ -1,0 +1,77 @@
+<div ng-controller="mainCtrl">
+  
+    <header class="header">
+      <span>{{quote.content}}</span>
+      <br>
+      <span>-{{quote.title}}-<span>
+    </header>
+       
+
+       <!--Top Floating Box-->
+       <div class="weathNow">
+              <span>
+                 <span>TONIGHT</span>
+                 <br>
+                 <span>{{weather.forecast.forecastday[0].hour[20].temp_f}}°</span>
+              </span>
+
+              <span class="city-size">
+                 {{weather.location.name}}
+              </span>
+
+            <span>
+                 <span>NOW</span>
+                 <br>
+                 <span>{{weather.current.temp_f}}°</span>
+            </span>
+        </div>
+
+            <!--Second Floating Box-->
+            <div class="welcome">
+              <span>
+                HELLO {{name.toUpperCase()}}, HERE IS THE WEATHER FOR TODAY
+              </span>
+            </div>
+
+
+            <!--Third Floating Box-->
+          <div class="hourTemp">
+
+            <div class="timeTemp">{{weather.forecast.forecastday[0].hour[0].temp_f}}° <br>12 AM</div>
+            <div class="timeTemp">{{weather.forecast.forecastday[0].hour[1].temp_f}}° <br>1</div>          
+            <div class="timeTemp">{{weather.forecast.forecastday[0].hour[2].temp_f}}° <br>2</div>            
+            <div class="timeTemp">{{weather.forecast.forecastday[0].hour[3].temp_f}}° <br>3</div>            
+            <div class="timeTemp">{{weather.forecast.forecastday[0].hour[4].temp_f}}° <br> 4 </div>            
+            <div class="timeTemp">{{weather.forecast.forecastday[0].hour[5].temp_f}}° <br>5</div>            
+            <div class="timeTemp">{{weather.forecast.forecastday[0].hour[6].temp_f}}° <br>6</div>            
+            <div class="timeTemp">{{weather.forecast.forecastday[0].hour[7].temp_f}}° <br>7</div>            
+            <div class="timeTemp">{{weather.forecast.forecastday[0].hour[8].temp_f}}° <br>8</div>            
+           <div class="timeTemp">{{weather.forecast.forecastday[0].hour[9].temp_f}}° <br>9</div>
+            <div class="timeTemp">{{weather.forecast.forecastday[0].hour[10].temp_f}}° <br>10</div>
+            <div class="timeTemp">{{weather.forecast.forecastday[0].hour[11].temp_f}}° <br>11</div>
+          </div>
+
+          <br>
+
+          <div class="hourTemp">
+            <div class="timeTemp">{{weather.forecast.forecastday[0].hour[12].temp_f}}° <br>12 PM</div>
+            <div class="timeTemp">{{weather.forecast.forecastday[0].hour[13].temp_f}}° <br>1</div>
+            <div class="timeTemp">{{weather.forecast.forecastday[0].hour[14].temp_f}}° <br>2</div>
+            <div class="timeTemp">{{weather.forecast.forecastday[0].hour[15].temp_f}}° <br>3</div>
+            <div class="timeTemp">{{weather.forecast.forecastday[0].hour[16].temp_f}}° <br>4</div>
+            <div class="timeTemp">{{weather.forecast.forecastday[0].hour[17].temp_f}}° <br>5</div>
+            <div class="timeTemp">{{weather.forecast.forecastday[0].hour[18].temp_f}}° <br>6</div>
+            <div class="timeTemp">{{weather.forecast.forecastday[0].hour[19].temp_f}}° <br>7</div>
+            <div class="timeTemp">{{weather.forecast.forecastday[0].hour[20].temp_f}}° <br>8</div>
+            <div class="timeTemp">{{weather.forecast.forecastday[0].hour[21].temp_f}}° <br>9</div>
+            <div class="timeTemp">{{weather.forecast.forecastday[0].hour[22].temp_f}}° <br>10</div>
+            <div class="timeTemp">{{weather.forecast.forecastday[0].hour[23].temp_f}}° <br>11</div>
+        </div>
+
+<!--Third Floating Box End -->
+
+
+              <div>
+               <a ui-sref="enter" style="margin:0auto;">Change Name and Location</a>
+              </div>
+</div>

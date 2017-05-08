@@ -1,0 +1,75 @@
+body {
+     background-image: url("./img/sunflowers.jpg");
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+     
+}
+
+.header {
+     width: 90vw;
+     margin-top: 10px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     background-color: rgba(45, 45, 2, 0.5);
+     text-align: center;
+     box-sizing: border-box;
+     font-family: 'Open Sans', sans-serif;
+     font-size: 1.5em;
+     color: white;
+     border-radius: 12px;
+}
+
+.weathNow {
+     width: 90vw;
+     margin-top: 10px;
+     background-color: rgba(45, 45, 2, 0.5);
+     text-align: center;
+     display: inline-flex;
+     justify-content: space-around;
+     box-sizing: border-box;
+     padding-top: 15px;
+     padding-bottom: 10px;
+     align-self: center;
+     font-family: 'Abril Fatface', cursive;
+     font-size: 1.5em;
+     color: white;
+     border-radius: 12px;
+}
+
+.welcome {
+     width: 90vw;
+     margin-top: 10px;
+     background-color: rgba(45, 45, 2, 0.5);
+     text-align: center;
+     box-sizing: border-box;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     font-family: 'Open Sans', sans-serif;
+     font-size: 2.25em;
+     color: white;
+     border-radius: 12px;
+}
+
+.hourTemp {
+     width: 90vw;
+     margin-top: 10px;
+     background-color: rgba(45, 45, 2, 0.5);
+     display: flex;
+     justify-content: space-around;
+     box-sizing: border-box;
+     padding-top: 15px;
+     padding-bottom: 10px;
+     font-family: 'Open Sans', sans-serif;
+     color: white;
+     border-radius: 12px;
+     font-size: 1.5rem;
+     flex-flow: row wrap;;
+}
+
+.timeTemp{
+    flex: 1;
+
+}

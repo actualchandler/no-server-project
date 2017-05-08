@@ -1,0 +1,48 @@
+
+
+.enter-box {
+     box-sizing: border-box;
+     font-size: 60px;
+     background-color: rgba(45 ,45, 2, 0.5);
+     width: 500px;
+     height: 560px;
+     text-align: center;
+     margin: 0 auto;
+     margin-top: 75px;
+     padding-top: 50px;
+     border-bottom: solid black;
+     border-bottom-width: 15px;
+     border-radius: 12px;
+
+}
+
+
+.enter-box input[type=text] {
+     padding: 5px;
+     outline: none;
+     border: none;
+     width: 56%;
+     background: none;
+     border-bottom-width: 2px;
+     border-bottom: solid black;
+     color: white;
+     text-align: center;
+     font-size: 56px;
+}
+
+.enter-box button{
+     transition-duration: 0.3s;
+     border-radius: 12px;
+     font-size: 50px;
+     background-color: white;
+     color: rgba(45, 45, 2, 0.5);
+     border: none;
+     margin-top: 110px;
+}
+
+button:hover {
+     border: none;
+     background: none;
+     color: white;
+     border-color: black;
+}
