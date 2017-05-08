@@ -2,12 +2,12 @@ angular.module('bingeApp', ["ui.router"]).config(function ($stateProvider, $urlR
      $stateProvider
           .state('main', {
                url: "/main/:name/:zip",
-               templateUrl: "./../html/main.html",
+               templateUrl: "./html/main.html",
                controller: "mainCtrl"
           })
           .state('enter', {
                url: "/enter",
-               templateUrl: "./../html/enter.html",
+               templateUrl: "./html/enter.html",
                controller: "enterCtrl"
           })
 
